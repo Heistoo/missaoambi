@@ -213,7 +213,7 @@ footer{
 }
 
 .link-tit{
-    position: fixed;
+    position: relative;
     left: 30%;
     bottom: 23%;
     font-weight:1000;
