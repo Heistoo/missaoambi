@@ -13,8 +13,9 @@ body.contatos{
     background-image: url(../images/ponte.png);
     background-color: #000000;
     background-repeat: no-repeat;
-    background-repeat: repeat-y;
-    background-size: cover;
+    /* background-repeat: repeat-y; */
+    background-size: 100% 100%;
+    height: 100vh;
     color: #FFFFFF;
 }
 
