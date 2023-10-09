@@ -7,6 +7,7 @@ body.contatos{
         margin: 0;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        overflow-x: hidden;
 }
 .inicio{
     background-image: url(../images/ponte.png);
