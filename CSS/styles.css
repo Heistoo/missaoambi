@@ -10,7 +10,7 @@ body.contatos{
         overflow-x: hidden;
 }
 .inicio{
-    background-image: url(../images/ponte.png);
+    background-image: url(../images/bridge.png);
     background-color: #000000;
     background-repeat: no-repeat;
     /* background-repeat: repeat-y; */
