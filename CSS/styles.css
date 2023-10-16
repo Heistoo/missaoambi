@@ -327,31 +327,31 @@ footer{
   }
 
  #img-1{
-    background-image: url('../images/imagem1.jfif');
+    background-image: url('../images/horta.png');
 }
 #img-2{
-    background-image: url('../images/imagem2.jfif');
+    background-image: url('../images/compostagem.png');
 }
 #img-3{
-    background-image: url('../images/imagem3.jfif');
+    background-image: url('../images/abelhas.png');
 }
 #img-4{
-    background-image: url('../images/imagem4.jfif');
+    background-image: url('../images/captacao.png');
 }
 #img-5{
     background-image: url('../images/imagem5.jfif');
 }
 #img-6{
-    background-image: url('../images/imagem6.jfif');
+    background-image: url('../images/arvores.png');
 }
 #img-7{
-    background-image: url('../images/imagem7.jfif');
+    background-image: url('../images/oficina.png');
 }
 #img-8{
     background-image: url('../images/imagem8.jfif');
 }
 #img-9{
-    background-image: url('../images/imagem9.jfif');
+    background-image: url('../images/jardim.png');
 }
 
 .projbtn{
@@ -378,61 +378,71 @@ footer{
 }
 
 .agro{
-    background-image: url('../images/imagem1.jfif');
+    background-image: url('../images/horta.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .conteudo{
+    /* display: block; */
     text-align: justify;
     margin: 10px;
     font-size: 110%;
 }
 
 .comp{
-    background-image: url('../images/imagem2.jfif');
+    background-image: url('../images/compostagem.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .abel{
-    background-image: url('../images/imagem3.jfif');
+    background-image: url('../images/abelhas.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .capt{
-    background-image: url('../images/imagem4.jfif');
+    background-image: url('../images/captacao.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .reci{
     background-image: url('../images/imagem5.jfif');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .nati{
-    background-image: url('../images/imagem6.jfif');
+    background-image: url('../images/arvores.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .ofic{
-    background-image: url('../images/imagem7.jfif');
+    background-image: url('../images/oficina.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .volu{
     background-image: url('../images/imagem8.jfif');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
 
 .inte{
-    background-image: url('../images/imagem9.jfif');
+    background-image: url('../images/jardim.png');
     background-repeat: repeat-x;
     background-size:auto;
+    background-color:#A8BC6A;
 }
