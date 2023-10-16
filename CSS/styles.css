@@ -10,11 +10,13 @@ body.contatos{
         overflow-x: hidden;
 }
 .inicio{
-    background-image: url(../images/ponte.png);
+    background-image: url(../images/bridge.png);
     background-color: #000000;
     background-repeat: no-repeat;
-    background-repeat: repeat-y;
-    background-size: cover;
+    /* background-repeat: repeat-y; */
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow-x: hidden;
     color: #FFFFFF;
 }
 
@@ -43,15 +45,17 @@ div.cabecalho{
 }
 
 .texto-inicial{
-    position: fixed;
-    top: 35%;
+    position: relative;
+    top: 15vh;
     font-size: larger;
+    left: 10px;
 }
 
 .missao{
-    position: fixed;
-    top: 32%;
+    position: relative;
+    top: 10vh;
     font-size: 60px;
+    left: 10px;
 }
 
 .essa{
@@ -202,20 +206,32 @@ footer{
 }
 
 .logo{
-    display: block;
-    margin-left: 6%;
+    /* display: block; */
+    margin-left: 20%;
     margin-right: auto;
-    width: 20%;
+    /* width: 20%; */
 }
 
 .enderecos{
-    position: fixed;
-    left: 6%;
+    /* position: fixed; */
+    margin-left: 20%;
 }
+
+.vis-cont1{
+    display: inline-block;
+    width: 29.5%;
+}
+
+.vis-cont2{
+    display: inline-block;
+    /* position: relative;
+    bottom: 150px; */
+}
+
 .link-tit{
-    position: relative;
+    /* position: relative;
     left: 30%;
-    bottom: 23%;
+    bottom: 23%; */
     font-weight:1000;
     font-size: large;
 }
@@ -223,8 +239,8 @@ footer{
 .link{
     text-decoration: underline;
     color: #FFFFFF;
-    position: fixed;
-    left: 30%;
+    /* position: fixed;
+    left: 30%; */
 }
 
 .contatos{
