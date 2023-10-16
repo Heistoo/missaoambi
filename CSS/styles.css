@@ -46,52 +46,61 @@ div.cabecalho{
 }
 
 .texto-inicial{
-    position: relative;
-    top: 15vh;
+    /* position: relative;
+    top: 15vh; */
     font-size: larger;
-    left: 10px;
+    /* left: 10px; */
 }
 
 .missao{
-    position: relative;
-    top: 10vh;
+    /* position: relative; */
+    /* top: 10vh; */
     font-size: 60px;
-    left: 10px;
+    /* left: 10px; */
 }
 
 .essa{
     text-decoration:underline;
 }
 
+.cont-index{
+    display: block;
+    padding-right: 30%;
+    font-size: 20px;
+}
+
 footer{
-    position: fixed;
-    bottom: 0%;
+    /* position: fixed;
+    bottom: 0%; */
     display: flex;
 }
 
 .mapa{
-    position: fixed;
+    /* position: fixed;
     bottom: 0%;
-    right: 0%;
+    right: 0%; */
     display: flex;
+    font-size: 18px;
 }
 .mapa-icone{
-    position: relative;
+    /* position: relative; */
     /* width: 5%;
     height: 5%; */
-    bottom: -10px;
-    right: 10px;
+    /* bottom: -10px;
+    right: 10px; */
 }
 .instagram{
-    position: fixed;
+    /* position: relative;
     bottom: 0%;
-    left: 0%;
+    left: 0%; */
+    padding-right: 40px;
 }
 
 .facebook{
-    position: fixed;
+    /* position: fixed;
     bottom: 0%;
-    left: 3%;
+    left: 3%; */
+    padding-right: 800px;
 }
 
 .titulo{
@@ -128,6 +137,8 @@ footer{
 .cont-esp{
     padding-left: 20px;
     font-size: 20px;
+    display: block;
+    padding-right: 20%;
 }
 
 .amoralface{
