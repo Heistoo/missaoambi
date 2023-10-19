@@ -29,7 +29,7 @@ body.contatos{
     /* position: relative; */
 }
 
-footer {
+.rodape-principal {
     display: flex;
     align-items: center;
     padding: 10;
