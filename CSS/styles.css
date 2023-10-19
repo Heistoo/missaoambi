@@ -1,7 +1,6 @@
 body{
     font-family: 'Inter', sans-serif;
     background-image: linear-gradient(#9FC532, #CFCBCB, #A8BC6A, #57934D);
-    height: 100%;
 }
 body.contatos{
         height: 100%;
@@ -10,23 +9,58 @@ body.contatos{
         background-attachment: fixed;
         overflow-x: hidden;
 }
+
 .inicio{
     background-image: url(../images/bridge.png);
     background-color: #000000;
     background-repeat: no-repeat;
-    /* background-repeat: repeat-y; */
-    background-size: 100% 100%;
-    height: 100vh;
+    background-size: cover;
     overflow-x: hidden;
+    height: 100%;
     color: #FFFFFF;
 }
+/*  */
+.parte-esq{
+    /* height: 100%; */
+    padding-left: 10px;
+}
+.cont-index{
+    height: 100%;
+    /* position: relative; */
+}
 
+footer {
+    display: flex;
+    align-items: center;
+    padding: 10;
+    position: absolute; 
+    bottom: 0;
+    margin-top: auto; 
+    /* left: 0; */
+    /* width: 100%; */
+  }
+  
+.mapa {
+    display: flex;
+    align-items: center;
+  }
+
+  .instagram, .facebook {
+    margin-right: 10px;
+    left: 0;
+  }
+  
+.mapa-icone{
+    margin-right: 10px;
+    right: 0;
+}        
+  
 .espaco{
     color: #000000;
 }
 
 div.cabecalho{
-    text-align: right;    
+    text-align: right;   
 }
 
 .ultimo{
@@ -46,17 +80,16 @@ div.cabecalho{
 }
 
 .texto-inicial{
-    /* position: relative;
-    top: 15vh; */
-    font-size: larger;
-    /* left: 10px; */
+    margin-bottom: -10px;
+    margin-top: 15px;
+    font-size: medium;
 }
-
+/* Main .parte-esq alignment to match Figma's layout */
+p.essa.texto-inicial{
+    margin-top: 50px;
+}
 .missao{
-    /* position: relative; */
-    /* top: 10vh; */
-    font-size: 60px;
-    /* left: 10px; */
+    font-size: 40px;
 }
 
 .essa{
@@ -64,45 +97,11 @@ div.cabecalho{
 }
 
 .cont-index{
-    display: block;
-    padding-right: 30%;
-    font-size: 20px;
+    width: 50%;
+    text-align: left;
+    font-size-adjust: 10px;
 }
 
-footer{
-    /* position: fixed;
-    bottom: 0%; */
-    display: flex;
-}
-
-.mapa{
-    /* position: fixed;
-    bottom: 0%;
-    right: 0%; */
-    display: flex;
-    font-size: 18px;
-}
-.mapa-icone{
-    /* position: relative; */
-    /* width: 5%;
-    height: 5%; */
-    /* bottom: -10px;
-    right: 10px; */
-    width: 2.4%;
-}
-.instagram{
-    /* position: relative;
-    bottom: 0%;
-    left: 0%; */
-    padding-right: 40px;
-}
-
-.facebook{
-    /* position: fixed;
-    bottom: 0%;
-    left: 3%; */
-    padding-right: 800px;
-}
 
 .titulo{
     text-align: center;
