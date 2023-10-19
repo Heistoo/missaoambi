@@ -59,12 +59,12 @@ body.contatos{
     color: #000000;
 }
 
-div.cabecalho{
-    text-align: right;   
+.cabecalho{
+    text-align: right;
+    justify-content: space-between;
 }
-
 .ultimo{
-    margin-right: 150px;
+    margin-right: 200px;
 }
 
 .links{
@@ -75,6 +75,12 @@ div.cabecalho{
     transition: 0.2s;
 }
 
+img.imagem-teste{
+    margin-bottom: -8px;
+}
+a.links.ultimo{
+    margin-right: -10px;
+}
 .links:hover{
     color: #AAA;
 }
