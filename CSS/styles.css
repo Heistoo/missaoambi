@@ -500,3 +500,8 @@ p.essa.texto-inicial{
     background-color:#A8BC6A;
     border-radius: 10px;
 }
+
+#copy{
+    margin-left: 50px;
+    color: gray;
+}
