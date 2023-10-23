@@ -9,7 +9,9 @@ body.contatos{
         background-attachment: fixed;
         overflow-x: hidden;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .inicio{
     background-image: url(../images/bridge.png);
     background-color: #000000;
