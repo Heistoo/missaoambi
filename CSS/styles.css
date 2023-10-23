@@ -64,6 +64,7 @@ body.contatos{
     display: flex;
     align-items: center;
 }
+/* Header */
 .cabecalho{
     /* text-align: right; */
     display: block;
@@ -73,10 +74,15 @@ nav ul{
     gap: 1.5rem;
     list-style-type: none;
 }
-.ultimo{
-    margin-right: 200px;
+nav.show{
+    transform: translateX(0);
 }
 
+.menu-layout,
+.fechar-menu{
+    display: none;
+    cursor: pointer;
+}
 .links{
     text-decoration: none;
     color: #FFFFFF;
@@ -84,15 +90,25 @@ nav ul{
     padding: 14px;
     transition: 0.2s;
 }
+.links:hover{
+    color: #AAA;
+    content: "";
+    border-bottom: solid 2px #004922;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+}
+.links:hover::after{
+    transform: scaleX(1);
+}
+.ultimo{
+    margin-right: 200px;
+}
 
 img.imagem-teste{
     margin-bottom: -8px;
 }
 a.links.ultimo{
     margin-right: -10px;
-}
-.links:hover{
-    color: #AAA;
 }
 
 .texto-inicial{
