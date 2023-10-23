@@ -118,6 +118,23 @@ a.links.ultimo{
     margin-top: 15px;
     font-size: medium;
 }
+
+@media (max-width: 70rem){
+    .menu-layout, 
+    .fechar-menu{
+        display: inline-block;
+        font-size: 10rem;
+        background-color: #9FC532;
+        border: 0;
+    }
+    nav{
+        overflow-y: hidden;
+        z-index: 1;
+        transform: translateX(100%);
+        transition: transform 0.5s;
+    }
+}
+
 /* Main .parte-esq alignment to match Figma's layout */
 p.essa.texto-inicial{
     margin-top: 50px;
