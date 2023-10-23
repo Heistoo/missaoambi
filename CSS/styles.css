@@ -426,6 +426,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .conteudo{
@@ -433,6 +434,7 @@ p.essa.texto-inicial{
     text-align: justify;
     margin: 10px;
     font-size: 110%;
+
 }
 
 .comp{
@@ -440,6 +442,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .abel{
@@ -447,6 +450,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .capt{
@@ -454,6 +458,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .reci{
@@ -461,6 +466,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .nati{
@@ -468,6 +474,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .ofic{
@@ -475,6 +482,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .volu{
@@ -482,6 +490,7 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
 
 .inte{
@@ -489,4 +498,5 @@ p.essa.texto-inicial{
     background-repeat: repeat-x;
     background-size:auto;
     background-color:#A8BC6A;
+    border-radius: 10px;
 }
