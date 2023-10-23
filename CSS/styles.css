@@ -201,6 +201,8 @@ p.essa.texto-inicial{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     width: 30%;
     background-color: #FFFFFF;
     border-radius: 20%;
