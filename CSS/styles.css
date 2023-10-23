@@ -59,10 +59,19 @@ body.contatos{
 #espaco{
     color: #000000;
 }
-
-.cabecalho{
-    text-align: right;
+.topo{
     justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.cabecalho{
+    /* text-align: right; */
+    display: block;
+}
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
 }
 .ultimo{
     margin-right: 200px;
