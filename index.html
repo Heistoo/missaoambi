@@ -12,7 +12,7 @@
     <style>
         /* Teste para HTML da imagem cobrir a página toda, sucetivel a remoção durante criação da OnePage
         (Trial for html to cover entire page, suceptible to modifications after altering to "One-Page" model) */
-        html{
+        main{
             height: 100%;
             overflow-y: hidden;
         }
@@ -22,10 +22,11 @@
         }
     </style>
 </head>
-<body class="inicio">
-    <header>
+<body>
+    <main class="inicio">
+    <header class="topo-pagina">
         <img src="./images/logo.png" alt="Missão Ambiental">
-        <div class="cabecalho">
+        <nav class="cabecalho">
             <a href="voluntario.html" class="links">Voluntário</a>
             <a href="espaco.html" class="links">Nosso Espaço</a>
             <a href="projetos.html" class="links">Projetos</a>
@@ -55,5 +56,53 @@
             </p>
         </div>
     </footer>
+    </main>
+    <div class="espaco">
+        <p class="titulo">Nosso Espaço</p>
+    <p class="cont-espaco">Descrição do conteúdo</p>
+    <img src="./images/tree.png" alt="arvore" class="arvore">
+    <p class="sub">Nossas Espécies</p>
+    <p class="sub-esp">Um lugar diversificado.<br>Plantas e Abelhas</p>
+    <p class="cont-esp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Numquam adipisci fuga aliquam magnam atque, accusantium
+        quo sapiente laborum, odit repudiandae neque facere veritatis 
+        nobis doloribus at modi quos nemo qui.</p>
+    <img src="./images/amora e alface.PNG" alt="amora e alface" class="amoralface">
+    
+    <div class="proj"><a href="./Projetos/especies.html">
+        <img src="./images/planeta-terra 1.png" alt="terra">
+        <p class="sub">Nossas Plantas</p>
+        <p class="cont-esp">uma descrição breve</p>
+        </a>
+    </div>
+    <div class="proj"><a href="./Projetos/reciclaveis.html">
+        <img src="./images/reciclar 1.png" alt="terra">
+        <p class="sub">Reciclagem</p>
+        <p class="cont-esp">uma descrição breve</p>
+        </a>
+    </div>
+    <div class="proj"><a href="./Projetos/abelhas.html">
+        <img src="./images/abelha 1.png" alt="terra">
+        <p class="sub">Nossos Insetos</p>
+        <p class="cont-esp">uma descrição breve</p>
+        </a>
+    </div>
+    <p class="titulo">Conheça nosso incrível espaço</p>
+    <img src="./images/blueberry2.png" alt="amora2" class="arvore">
+    <a href="index.html" class="volta">Voltar</a>
+    </div>
+    <!-- <footer class="rodape-principal">
+        <a target="_blank" href="https://www.instagram.com/missao.ambiental/" class="instagram redes"><img src="./images/instagram 1.png" alt="Instagram"></a>
+        <a target="_blank" href="https://www.facebook.com/missaoambiental.org/" class="facebook redes"><img src="./images/facebook 1.png" alt="Facebook"></a>
+        <div class="mapa">
+            <div class="mapa-icone">
+                <a target="_blank" href="https://maps.app.goo.gl/GbR9jx4g4LoP4dJ7A">
+                <img src="./images/mapa 1.png" alt="Mapa">
+                </a>
+             </div>
+            <p>missaoambiental.org@gmail.com | Rua Moreira de Godói, o1 - Vila São José - São Paulo, SP | (11) 96677-6565
+            </p>
+        </div>
+    </footer> -->
 </body>
 </html>
