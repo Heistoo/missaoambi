@@ -244,6 +244,16 @@ p.essa.texto-inicial{
     width: 15%;
 }
 
+.agendar{
+    background-image: url(../images/box.png);
+    color: white;
+}
+
+.agendar2{
+    background-color: #004922;
+    color: white;
+}
+
 .logo{
     /* display: block; */
     margin-left: 20%;
