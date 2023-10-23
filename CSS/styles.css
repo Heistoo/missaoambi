@@ -275,12 +275,12 @@ p.essa.texto-inicial{
     margin-left: 20%;
 }
 
-.vis-cont1{
+#vis-cont1{
     display: inline-block;
     width: 29.5%;
 }
 
-.vis-cont2{
+#vis-cont2{
     display: inline-block;
     /* position: relative;
     bottom: 150px; */
