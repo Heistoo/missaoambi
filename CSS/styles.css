@@ -15,8 +15,8 @@ body.contatos{
     background-color: #000000;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
-    height: 100%;
+    /* overflow-x: hidden; */
+    height: 100vh;
     color: #FFFFFF;
 }
 /*  */
