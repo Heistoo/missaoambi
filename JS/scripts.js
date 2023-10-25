@@ -1,7 +1,7 @@
 
 // Script java to show and hide menu-layout & fechar-menu
 const menuInterativoBtn = document.querySelector(".menu-layout");
-const fecharMenuBtn = document.querySelector(".close-menu");
+const fecharMenuBtn = document.querySelector(".fechar-menu");
 const nav = document.querySelector("nav");
 const menuOverlay = document.querySelector(".menu-overlay");
 
