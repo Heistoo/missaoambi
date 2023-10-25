@@ -23,7 +23,7 @@ fecharMenuBtn.addEventListener("click", () => {
     hideMenu();
 });
 
-//possivelmente fecha o overlay do menu (a barra cinza)
+//possivelmente fecha o overlay do menu (a barra verde)
 menuOverlay.addEventListener("click", () => {
     hideMenu();
 });
