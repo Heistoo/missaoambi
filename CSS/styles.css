@@ -582,3 +582,39 @@ p.essa.texto-inicial{
     margin-left: 50px;
     color: gray;
 }
+
+.carrossel-container {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.carrossel-item {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+  
+.carrossel-item .vertical {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    bottom: 30%;
+    left: 60%;
+}
+
+.carrossel-btn{
+    position: relative;
+    left: 65%;
+}
+
+.carrossel-item .horizontal{
+    width: 40%;
+    height: 200px;
+    object-fit: contain;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
