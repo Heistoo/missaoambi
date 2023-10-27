@@ -161,7 +161,7 @@ a.links.ultimo{
         background-color: #9FC532;
         z-index: 1;
         color: white;
-        width: 30%;
+        width: 40%;
         transform: translateX(100%);
         transition: transform 0.5s;
     }
