@@ -342,7 +342,7 @@ p.essa.texto-inicial{
     width: 15%;
 }
 
-.agendar{
+#agendar{
     background-image: url(../images/box.png);
     color: white;
 }
