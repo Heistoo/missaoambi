@@ -94,6 +94,11 @@ nav a:hover::after {
 nav.show{
     transform: translateX(0);
 }
+.logo-amb{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 16px;
+}
 .menu-overlay.show {
     position: fixed;
     top: 0;
