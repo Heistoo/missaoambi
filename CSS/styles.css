@@ -170,7 +170,7 @@ a.links.ultimo{
         top: 0;
         right: 0;
         height: 100%;
-        background-color: #9FC532;
+        background-color: white;
         z-index: 1;
         color: white;
         width: 40%;
@@ -185,7 +185,7 @@ a.links.ultimo{
     }
     nav a {
         font-size: 1.2rem;
-        color: white;
+        color: black;
     }
 }
 
