@@ -18,7 +18,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     /* overflow-x: hidden; */
-    height: 100vh;
+    min-height: 100vh;
     color: #FFFFFF;
 }
 /*  */
@@ -146,7 +146,7 @@ a.links.ultimo{
     margin-top: 15px;
     font-size: medium;
 }
-@media (min-width:71rem){
+@media (min-width:70.1rem){
     header{
         width: 100%;
         background-color: white;
