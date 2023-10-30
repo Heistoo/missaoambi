@@ -341,9 +341,9 @@ p.essa.texto-inicial{
 }
 
 .agendamento{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
     width: 15%;
 }
 
