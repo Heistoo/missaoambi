@@ -36,20 +36,23 @@ html{
 
 .rodape-principal {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding: 10;
+    padding-top: 12px;
     margin-top: auto; 
+    background-color: white;
+    color: black;
     /* left: 0; */
     /* width: 100%; */
   }
   
 .mapa {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .instagram, .facebook {
-    margin-right: 10px;
+    margin-right: 50px;
     left: 0;
   }
   
