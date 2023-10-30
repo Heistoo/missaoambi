@@ -20,6 +20,8 @@ html{
     /* overflow-x: hidden; */
     min-height: 100vh;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
 /*  */
 .parte-esq{
@@ -36,8 +38,6 @@ html{
     display: flex;
     align-items: center;
     padding: 10;
-    position: absolute; 
-    bottom: 0;
     margin-top: auto; 
     /* left: 0; */
     /* width: 100%; */
