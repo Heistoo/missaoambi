@@ -635,3 +635,7 @@ p.essa.texto-inicial{
     left: 500px;
     top: 300px;
 }
+#equipe{
+    display: flex;
+    flex-direction: column;
+}
