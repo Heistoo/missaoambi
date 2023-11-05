@@ -364,6 +364,8 @@ a.links.ultimo{
 .agendar2{
     background-color: #004922;
     color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .logo{
@@ -379,8 +381,12 @@ a.links.ultimo{
 }
 
 #vis-cont1{
-    display: inline-block;
+    display: flex;
     width: 29.5%;
+}
+.lista-footer-li{
+    list-style-type: none;
+    position: relative;
 }
 
 #vis-cont2{
