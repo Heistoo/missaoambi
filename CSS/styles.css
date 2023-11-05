@@ -359,6 +359,7 @@ a.links.ultimo{
 #agendar{
     background-image: url(../images/box.png);
     color: white;
+    padding-bottom: 100px;
 }
 
 .agendar2{
@@ -386,9 +387,19 @@ a.links.ultimo{
 }
 .lista-footer-li{
     list-style-type: none;
-    position: relative;
+    white-space: nowrap;
+    text-decoration: underline;
 }
-
+.lista-footer-li a{
+    text-decoration: none;
+    color: white;
+}
+.paragrafo-Termos{
+    margin-left: 50px;
+    white-space: nowrap;
+    font-size: x-large;
+    text-decoration: underline;
+}
 #vis-cont2{
     display: inline-block;
     /* position: relative;
@@ -404,7 +415,7 @@ a.links.ultimo{
 
 .creditos{
     display: inline-block;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .free-link{
