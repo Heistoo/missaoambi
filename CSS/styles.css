@@ -51,8 +51,9 @@ html{
     /* align-items: center; */
   }
 
-  .instagram, .facebook {
+  .instagram, .facebook, .linktree {
     margin-right: 50px;
+    margin-left: 10px;
     left: 0;
   }
   
