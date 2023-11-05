@@ -312,13 +312,12 @@ a.links.ultimo{
 
 .voluntario-btn{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 0 auto;
     width: 30%;
-    background-color: #FFFFFF;
-    border-radius: 20%;
+    display: inline-block;
+    margin-left: 35%;
+    /* background-color: #FFFFFF; */
+    /* border-radius: 20%; */
 }
 
 .volta{
