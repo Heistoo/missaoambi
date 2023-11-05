@@ -622,14 +622,6 @@ a.links.ultimo{
     display: none;
 }
   
-.carrossel-item .vertical {
-    width: 30%;
-    height: 100%;
-    object-fit: cover;
-    position: relative;
-    bottom: 30%;
-    left: 60%;
-}
 
 .carrossel-btn{
     position: relative;
@@ -641,9 +633,24 @@ a.links.ultimo{
     height: 200px;
     object-fit: contain;
     position: absolute;
-    left: 500px;
+    left: 700px;
     top: 300px;
+    z-index: 1;
 }
+.carrossel-item .vertical{
+    height: 550px;
+    object-fit: contain;
+    position: absolute;
+    left: 500px;
+    bottom: 20px;
+  }
+  .carrossel-item .verticalarvore{
+    height: 550px;
+    object-fit: contain;
+    position: absolute;
+    left: 180px;
+    bottom: 20px;
+  }
 #equipe{
     display: flex;
     flex-direction: column;
