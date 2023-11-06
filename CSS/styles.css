@@ -159,53 +159,6 @@ a.links.ultimo{
     /* margin-top: 15px; */
     font-size: medium;
 }
-@media (min-width:70.1rem){
-    header{
-        width: 100%;
-        background-color: white;
-        padding-top: 20px;
-    }
-    nav{
-        margin-right: 20px;
-    }
-    nav a{
-        color: black;
-    }
-}
-@media (max-width: 70rem){
-    .menu-layout,
-    .fechar-menu {
-        display: inline-block;
-        font-size: 1.2rem;
-        background-color: beige;
-        border: none;
-    }
-
-    nav {
-        padding: 1.5rem 2.5rem 1.5rem 1.5rem;
-        text-align: right;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100%;
-        background-color: white;
-        z-index: 1;
-        color: white;
-        width: 40%;
-        transform: translateX(100%);
-        transition: transform 0.5s;
-    }
-    nav ul {
-        flex-direction: column;
-        gap: 1.5rem;
-        align-items: flex-end;
-        margin-top: 2rem;
-    }
-    nav a {
-        font-size: 1.2rem;
-        color: black;
-    }
-}
 
 /* Main .parte-esq alignment to match Figma's layout */
 .missao{
@@ -382,7 +335,6 @@ a.links.ultimo{
 }
 
 #vis-cont1{
-    display: flex;
     width: 29.5%;
 }
 .lista-footer-li{
@@ -671,4 +623,59 @@ a.links.ultimo{
 #equipe{
     display: flex;
     flex-direction: column;
+}
+@media screen and (min-width: 1058px){
+    #vis-cont1{
+       display: flex;
+    }
+}
+@media screen and (min-width: 769px){
+   body{
+       width: 100%;
+   }
+   header{
+       width: 100%;
+       background-color: white;
+       padding-top: 20px;
+   }
+   nav{
+       margin-right: 20px;
+   }
+   nav a{
+       color: black;
+   }
+}
+@media screen and (max-width: 768px){
+   .menu-layout,
+   .fechar-menu {
+       display: inline-block;
+       font-size: 1.2rem;
+       background-color: beige;
+       border: none;
+   }
+
+   nav {
+       padding: 1.5rem 2.5rem 1.5rem 1.5rem;
+       text-align: right;
+       position: fixed;
+       top: 0;
+       right: 0;
+       height: 100%;
+       background-color: white;
+       z-index: 1;
+       color: white;
+       width: 40%;
+       transform: translateX(100%);
+       transition: transform 0.5s;
+   }
+   nav ul {
+       flex-direction: column;
+       gap: 1.5rem;
+       align-items: flex-end;
+       margin-top: 2rem;
+   }
+   nav a {
+       font-size: 1.2rem;
+       color: black;
+   }
 }
