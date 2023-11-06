@@ -646,7 +646,17 @@ a.links.ultimo{
    }
 }
 @media screen and (max-width: 768px){
-   .menu-layout,
+    html, body{
+        overflow-x: hidden;
+    }
+    .logo-amb{
+        margin-top: 15px;
+    }
+    .parte-esq{
+        font-size: 13px;
+        width: 150vw;
+    }
+    .menu-layout,
    .fechar-menu {
        display: inline-block;
        font-size: 1.2rem;
@@ -678,14 +688,4 @@ a.links.ultimo{
        font-size: 1.2rem;
        color: black;
    }
-}
-
-#reset{
-    background-color: #004922;
-    border-color: #004922;
-    border-style: solid;
-}
-
-#reset:hover{
-    cursor:default;
 }
