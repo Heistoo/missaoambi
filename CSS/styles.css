@@ -679,3 +679,13 @@ a.links.ultimo{
        color: black;
    }
 }
+
+#reset{
+    background-color: #004922;
+    border-color: #004922;
+    border-style: solid;
+}
+
+#reset:hover{
+    cursor:default;
+}

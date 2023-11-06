@@ -54,3 +54,26 @@ mostrarSlide(indiceAtual);
 
 document.getElementById('proxBtn').addEventListener('click', proximoSlide);
 document.getElementById('anterBtn').addEventListener('click', anteriorSlide);
+
+//Contador de visitas
+var counterContainer = document.querySelector(".website-counter");
+var resetButton = document.querySelector("#reset");
+var visitCount = localStorage.getItem("page_view");
+
+//Checar se a visualização da página está presente
+if(visitCount){
+  visitCount = Number(visitCount) + 1;
+  localStorage.setItem("page_view", visitCount);
+}
+else {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+}
+counterContainer.innerHTML = visitCount;
+
+//Adicionando onClick event listener
+resetButton.addEventListener("click", () => {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+  counterContainer.innerHTML = visitCount;
+});
