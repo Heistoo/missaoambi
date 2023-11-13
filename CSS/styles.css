@@ -644,6 +644,9 @@ a.links.ultimo{
    nav a{
        color: black;
    }
+   .paragrafo-Termos{
+    margin-left: 27px;
+   }
 }
 @media screen and (max-width: 768px){
     html, body{
@@ -693,6 +696,9 @@ a.links.ultimo{
    }
    .missao{
     font-size: 25px;
+   }
+   .paragrafo-Termos{
+    margin-left: 27px;
    }
 }
 
