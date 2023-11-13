@@ -230,26 +230,27 @@ a.links.ultimo{
     text-align: center;
     background-color: white;
     border-radius: 35px;
+    border: 2px solid black;
 }
 
 .pos1{
     display: block;
-    margin-left: 40px;
-    margin-right: 1200px;
+    margin-left: 5%;
+    margin-right: auto;
     width: 30%;
 }
 
 .pos2{
     display: block;
     margin-left: auto;
-    margin-right: 300px;
+    margin-right: 10%;
     width: 30%;
 }
 
 .pos3{
     display: block;
     margin-left: auto;
-    margin-right: 700px;
+    margin-right: 35%;
     width: 30%;
 }
 
