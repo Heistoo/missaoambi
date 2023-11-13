@@ -1,6 +1,6 @@
 body{
     font-family: 'Inter', sans-serif !important;
-    background-image: linear-gradient(#9FC532, #CFCBCB, #A8BC6A, #57934D);
+    background-image: #F5F5F5;
 }
 body.contatos{
         min-height: 100vh;
@@ -33,10 +33,6 @@ html{
     
 }
 /*  */
-.parte-esq{
-    /* height: 100%; */
-    padding-left: 10px;
-}
 .cont-index{
     height: 100%;
     font-size: 100%;
@@ -675,7 +671,9 @@ a.links.ultimo{
        background-color: beige;
        border: none;
    }
-
+   .secao-texto{
+    margin-right: 10%;
+   }
    nav {
        padding: 1.5rem 2.5rem 1.5rem 1.5rem;
        text-align: right;
