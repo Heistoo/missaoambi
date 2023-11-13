@@ -671,7 +671,9 @@ a.links.ultimo{
        background-color: beige;
        border: none;
    }
-
+   .secao-texto{
+    margin-right: 10%;
+   }
    nav {
        padding: 1.5rem 2.5rem 1.5rem 1.5rem;
        text-align: right;
