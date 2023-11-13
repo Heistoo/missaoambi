@@ -77,3 +77,18 @@ resetButton.addEventListener("click", () => {
   localStorage.setItem("page_view", 1);
   counterContainer.innerHTML = visitCount;
 });
+
+
+//media de tempo em visitas
+var meanContainer = document.querySelector(".website-mean");
+
+var tempoInicial = new Date();
+
+//saida do usuário
+window.onbeforeunload = function(){
+  var tempoFinal = new Date();
+  var tempoGasto = tempoFinal - tempoInicial;
+  // meanContainer.innerText = tempoGasto;
+  console.log("Você gastou " + tempoGasto + " milésimos de segundo no site.");
+}
+
