@@ -647,6 +647,15 @@ a.links.ultimo{
    .paragrafo-Termos{
     margin-left: 27px;
    }
+   .logo{
+    margin-left: 27px;
+   }
+   .enderecos{
+    margin-left: 27px;
+   }
+   .rodape-final{
+    margin-left: -3px;
+   }
 }
 @media screen and (max-width: 768px){
     html, body{
@@ -699,6 +708,15 @@ a.links.ultimo{
    }
    .paragrafo-Termos{
     margin-left: 27px;
+   }
+   .logo{
+    margin-left: 27px;
+   }
+   .enderecos{
+    margin-left: 27px;
+   }
+   .rodape-final{
+    margin-left: -3px;
    }
 }
 
