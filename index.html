@@ -35,11 +35,11 @@
                 <li><a tabindex="4" href="#equipe">Equipe</a></li>
                 <li><a tabindex="5" href="#agendar">Agendar</a></li>
                 <li><a tabindex="6" href="#vis-cont1">Contatos</a></li>
-                <li class="acessibilidade2">
+                <!-- <li class="acessibilidade2">
                     <a class="acessibilidade">
                         <img tabindex="7" src="images/acessibilidade.svg" alt="Símbolo de Acessibilidade">
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </header>
@@ -193,5 +193,15 @@
     </div>
     </div>
     <div class="menu-overlay"></div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget();
+      </script>
 </body>
 </html>
