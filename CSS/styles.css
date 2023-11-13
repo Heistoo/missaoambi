@@ -688,6 +688,12 @@ a.links.ultimo{
        font-size: 1.2rem;
        color: black;
    }
+   .essa{
+    padding-bottom: 10px;
+   }
+   .missao{
+    font-size: 25px;
+   }
 }
 
 #reset{
