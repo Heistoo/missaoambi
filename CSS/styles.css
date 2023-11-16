@@ -616,6 +616,20 @@ a.links.ultimo{
     display: flex;
     flex-direction: column;
 }
+#reset{
+    background-color: #004922;
+    border-color: #004922;
+    border-style: solid;
+}
+
+#reset:hover{
+    cursor:default;
+}
+
+/* Don't modify or input
+any code below this line unless
+you're modifying media screen specifically*/
+
 @media screen and (min-width: 1058px){
     #vis-cont1{
        display: flex;
@@ -728,14 +742,4 @@ a.links.ultimo{
    .pos3{
     margin-left: -24px;
    }
-}
-
-#reset{
-    background-color: #004922;
-    border-color: #004922;
-    border-style: solid;
-}
-
-#reset:hover{
-    cursor:default;
 }
