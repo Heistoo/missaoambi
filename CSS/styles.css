@@ -51,12 +51,6 @@ html{
     /* left: 0; */
     /* width: 100%; */
   }
-  
-.mapa {
-    display: flex;
-    /* align-items: center; */
-  }
-
   .instagram, .facebook, .linktree {
     margin-right: 50px;
     margin-left: 10px;
@@ -658,6 +652,10 @@ a.links.ultimo{
    .rodape-final{
     margin-left: -3px;
    }
+   .mapa {
+    display: flex;
+    /* align-items: center; */
+  } 
 }
 @media screen and (max-width: 768px){
     html, body{
@@ -669,6 +667,9 @@ a.links.ultimo{
     .parte-esq{
         font-size: 13px;
         width: 150vw;
+    }
+    .paragrafo-mapa{
+        margin-left: -230px;
     }
     .menu-layout,
    .fechar-menu {
