@@ -225,27 +225,28 @@ a.links.ultimo{
     background-color: white;
     border-radius: 35px;
     border: 2px solid black;
+    display: block;
 }
 
 .pos1{
-    display: block;
-    margin-left: 5%;
+    /* display: block; */
+    /* margin-left: 5%;
     margin-right: auto;
-    width: 30%;
+    width: 30%; */
 }
 
 .pos2{
-    display: block;
-    margin-left: auto;
+    /* display: block; */
+    /* margin-left: auto;
     margin-right: 10%;
-    width: 30%;
+    width: 30%; */
 }
 
 .pos3{
-    display: block;
-    margin-left: auto;
-    margin-right: 35%;
-    width: 30%;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: 35%; */
+    /* width: 30%;  */
 }
 
 .voluntariar{
@@ -302,6 +303,7 @@ a.links.ultimo{
 
 #agendar{
     background-image: url(../images/box.png);
+    background-size: cover;
     color: white;
     padding-bottom: 100px;
 }
@@ -722,6 +724,12 @@ a.links.ultimo{
    }
    .rodape-final{
     margin-left: -3px;
+   }
+   .pos1{
+    margin-bottom: -100%;
+   }
+   .pos2{
+    margin-top: -100%;
    }
 }
 
