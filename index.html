@@ -154,8 +154,13 @@
     <br>
     <div id="agendar">
         <p tabindex="63" class="titulo">Agende uma Visita</p> 
-    <p tabindex="64" class="cont-espaco">Para Agendar uma visita, clique no ícone abaixo</p> 
-    <a tabindex="65" target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBzFwjxNRjZVTCmMpBLrkPCHknNqKXbFZSHRxjNJFQJnqxbpDvfRFNwfQFGgsntCWdXnvZ" class="agendamento"><img src="./images/agendar3.png" alt="Logo do Gmail, para poder agendar uma visita" class="gmail-logo"></a>
+    <p tabindex="64" class="cont-espaco">Para Agendar uma visita, preencha os campos abaixo:</p> 
+    <form action="mailto:emailexemplo@example.com" method="post" enctype="text/plain">
+            <input type="email" placeholder="Email" class="caixa-email">
+        <input type="text" name="sname" placeholder="Nome" class="caixa-nome">
+        <textarea id="mensagem"rows="5" placeholder="Escreva uma mensagem incluindo a data que gostaria de visitar"></textarea><br>
+        <!-- <input type="submit" value="Send"> -->
+    </form>
     </div> 
     <footer class="agendar2">
     <div id="vis-cont1"> 

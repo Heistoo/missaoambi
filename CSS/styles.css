@@ -295,9 +295,9 @@ a.links.ultimo{
 }
 
 #agendar{
-    background-image: url(../images/box.png);
+    /* background-image: url(../images/box.png); */
     background-size: cover;
-    color: white;
+    color: black;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -624,6 +624,18 @@ a.links.ultimo{
 
 #reset:hover{
     cursor:default;
+}
+.caixa-email, .caixa-nome{
+    width: 50%;
+    padding: 1em;
+    border-radius: 90px;
+    border-color: black;
+    margin-bottom: 10px;
+}
+#mensagem{
+    width: 50%;
+    padding: 3em;
+    border-radius: 90px;
 }
 
 /* Don't modify or input
