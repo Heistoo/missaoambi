@@ -92,3 +92,16 @@ window.onbeforeunload = function(){
   console.log("Você gastou " + tempoGasto + " milésimos de segundo no site.");
 }
 
+//iniciador do pop-up de termos e serviços
+window.addEventListener("load", function(){
+  setTimeout(
+      function open(event){
+          document.querySelector(".popup").style.display = "block";
+      },
+      1000 
+  )
+});
+
+document.querySelector("#close").addEventListener("click", function(){
+  document.querySelector(".popup").style.display = "none";
+});
