@@ -164,11 +164,14 @@
     <div id="agendar">
         <p tabindex="63" class="titulo">Agende uma Visita</p> 
     <p tabindex="64" class="cont-espaco">Para Agendar uma visita, preencha os campos abaixo:</p> 
-    <form action="mailto:emailexemplo@example.com" method="post" enctype="text/plain">
-            <input type="email" placeholder="Email" class="caixa-email">
-        <input type="text" name="sname" placeholder="Nome" class="caixa-nome">
-        <textarea id="mensagem"rows="5" placeholder="Escreva uma mensagem incluindo a data que gostaria de visitar"></textarea><br>
-        <!-- <input type="submit" value="Send"> -->
+    <form action="https://formsubmit.co/ajax/gabrielssoares161@gmail.com" method="POST">
+        <label for="caixa-nome">Nome</label>
+        <input type="text" name="sname" id="caixa-nome" required>
+        <label for="caixa-email">Email</label>
+        <input type="email" id="caixa-email" name="email" required>
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem"rows="5" name="mensagem"></textarea required>
+        <button type="submit" id="enviar-btn">Enviar</button>
     </form>
     </div> 
     <footer class="agendar2">
