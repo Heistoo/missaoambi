@@ -300,6 +300,8 @@ a.links.ultimo{
     color: black;
     padding-bottom: 100px;
     text-align: center;
+    display: grid;
+    place-items: center;
 }
 
 .agendar2{
@@ -625,17 +627,65 @@ a.links.ultimo{
 #reset:hover{
     cursor:default;
 }
-.caixa-email, .caixa-nome{
-    width: 50%;
-    padding: 1em;
-    border-radius: 90px;
-    border-color: black;
-    margin-bottom: 10px;
+form{
+    width: 100%;
+    max-width: 30rem;
+}
+label, 
+#caixa-email, 
+#caixa-nome, 
+#mensagem,
+#enviar-btn{
+    display: block;
+}
+#caixa-email,
+#caixa-nome,
+#mensagem,
+#enviar-btn{
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 500;
+}
+#caixa-email, #caixa-nome, #mensagem{
+    margin-bottom: 1rem;
+    color: black;
+    background: whitesmoke;
+    border: 0.125rem solid transparent;
+    border-radius: 1.125rem;
+    transition: border-color 0.3s, 
+    box-shadow 0.3s;
+}
+#caixa-email:hover, #caixa-email:focus,
+#caixa-nome:hover, #caixa-nome:focus,
+#mensagem:hover, #mensagem-focus{
+    outline: none;
+    border-color: lightblue;
+    box-shadow: 0 0 0 0.3125rem #26344a;
+}
+label{
+    margin-bottom: 0.5rem;
+    color: #1c1d1e;
 }
 #mensagem{
-    width: 50%;
-    padding: 3em;
-    border-radius: 90px;
+    min-height: 12.5rem;
+    resize: vertical;
+}
+#enviar-btn{
+    border: none;
+    border-radius: 99px;
+    color: black;
+    background-color: lightblue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#enviar-btn:hover, #enviar-btn:focus{
+    outline: none;
+    background: rgb(78, 78, 172);
+}
+#enviar-btn:disabled{
+    cursor: not-allowed;
+    background: grey;
 }
 
 .redes2{
