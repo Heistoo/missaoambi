@@ -632,14 +632,14 @@ form{
     max-width: 30rem;
 }
 label, 
-#caixa-email, 
-#caixa-nome, 
+#email, 
+#nome, 
 #mensagem,
 #enviar-btn{
     display: block;
 }
-#caixa-email,
-#caixa-nome,
+#email,
+#nome,
 #mensagem,
 #enviar-btn{
     width: 100%;
@@ -647,7 +647,7 @@ label,
     padding: 1.25rem;
     font-weight: 500;
 }
-#caixa-email, #caixa-nome, #mensagem{
+#email, #nome, #mensagem{
     margin-bottom: 1rem;
     color: black;
     background: whitesmoke;
@@ -656,8 +656,8 @@ label,
     transition: border-color 0.3s, 
     box-shadow 0.3s;
 }
-#caixa-email:hover, #caixa-email:focus,
-#caixa-nome:hover, #caixa-nome:focus,
+#email:hover, #email:focus,
+#nome:hover, #nome:focus,
 #mensagem:hover, #mensagem-focus{
     outline: none;
     border-color: lightblue;
@@ -687,7 +687,9 @@ label{
     cursor: not-allowed;
     background: grey;
 }
-
+.success, .error{
+    color: black;
+}
 .redes2{
     margin-right: 15%;
 }
