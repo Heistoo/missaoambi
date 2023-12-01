@@ -341,6 +341,13 @@ a.links.ultimo{
     font-size: x-large;
     text-decoration: underline;
 }
+.paragrafo-Parceiros{
+    margin-left: 50px;
+    white-space: nowrap;
+    font-size: x-large;
+    text-decoration: underline;
+    display: block;
+}
 #vis-cont2{
     display: inline-block;
     /* position: relative;
