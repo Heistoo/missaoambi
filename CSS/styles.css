@@ -64,6 +64,7 @@ html{
   
 #espaco{
     color: #000000;
+    margin-top: 140px;
 }
 .topo{
     justify-content: space-between;
@@ -187,7 +188,8 @@ a.links.ultimo{
 .sub{
     padding-left: 20px;
     text-decoration: underline;
-    font-weight:bold ;
+    text-align: center;
+    font-weight:bold;
     font-size: 20px;
 }
 
@@ -249,6 +251,10 @@ a.links.ultimo{
     /* width: 30%;  */
 }
 
+#voluntario{
+    margin-top: 90px;
+}
+
 .voluntariar{
     text-align: center;
     font-weight: bold;
@@ -302,6 +308,7 @@ a.links.ultimo{
     text-align: center;
     display: grid;
     place-items: center;
+    margin-top: 90px;
 }
 
 .agendar2{
@@ -343,10 +350,8 @@ a.links.ultimo{
 }
 .paragrafo-Parceiros{
     margin-left: 50px;
-    white-space: nowrap;
-    font-size: x-large;
-    text-decoration: underline;
-    display: block;
+    margin-bottom: 50px;
+    /* display: inline-block; */
 }
 #vis-cont2{
     display: inline-block;
@@ -591,6 +596,8 @@ a.links.ultimo{
 .carrossel-btn{
     position: relative;
     left: 65%;
+    width: 35px;
+    margin-right: 1%;
 }
 
 .carrossel-item .horizontal{
@@ -624,6 +631,7 @@ a.links.ultimo{
 #equipe{
     display: flex;
     flex-direction: column;
+    margin-top: 90px;
 }
 #reset{
     background-color: #004922;
