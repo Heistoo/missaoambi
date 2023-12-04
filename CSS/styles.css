@@ -353,6 +353,12 @@ a.links.ultimo{
     margin-bottom: 50px;
     /* display: inline-block; */
 }
+
+.parceiros{
+    font-size: x-large;
+    text-decoration: underline;
+}
+
 #vis-cont2{
     display: inline-block;
     /* position: relative;
