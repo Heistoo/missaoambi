@@ -580,6 +580,11 @@ a.links.ultimo{
     border-radius: 10px;
 }
 
+.nome{
+    font-size: x-large;
+    font-weight: 150;
+}
+
 #copy{
     margin-left: 50px;
     color: gray;
