@@ -623,16 +623,6 @@ a.links.ultimo{
     left: 20%;
     top: 10%; */
   }
-.carrossel-item .vertical-especiais{
-    height: 40%;
-    width: 30%;
-    object-fit: scale-down;
-}
-
-.carrossel-item .horizontal-especiais{
-    width: 50%;
-    object-fit: scale-down;
-}
 
 #equipe{
     display: flex;
