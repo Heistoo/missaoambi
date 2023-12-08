@@ -580,6 +580,11 @@ a.links.ultimo{
     border-radius: 10px;
 }
 
+.nome{
+    font-size: x-large;
+    font-weight: 150;
+}
+
 #copy{
     margin-left: 50px;
     color: gray;
@@ -818,9 +823,6 @@ you're modifying media screen specifically*/
    .pos2{
     margin-top: -100%;
    }
-   .pos3{
-    margin-left: -24px;
-   }
 }
 
 .popup{
@@ -861,4 +863,9 @@ you're modifying media screen specifically*/
      margin: 20px 0;
      line-height: 25px;
      color: #000000;
+ }
+ @media (max-width:1199.20px) and (min-width:769px){
+    .secao-texto{
+        margin-right: 20%;
+       }
  }
