@@ -867,3 +867,8 @@ you're modifying media screen specifically*/
      line-height: 25px;
      color: #000000;
  }
+ @media (max-width:1199.20px) and (min-width:769px){
+    .secao-texto{
+        margin-right: 20%;
+       }
+ }
